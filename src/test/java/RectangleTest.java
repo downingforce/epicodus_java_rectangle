@@ -9,4 +9,10 @@ public class RectangleTest {
     assertEquals(true, testRectangle instanceof Rectangle);
   }
 
+  @Test
+  public void newRectangle_savesLength_4() {
+    Rectangle testRectangle = new Rectangle(2, 4);
+    assertEquals(4, testRectangle.getLength());
+  }
+
 }
