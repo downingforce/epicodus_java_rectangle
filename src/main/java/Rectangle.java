@@ -1,8 +1,8 @@
 public class Rectangle {
-  private mLength;
-  
-  public Rectangle(int length, int width) {
+  private int mLength;
 
+  public Rectangle(int length, int width) {
+    mLength = length; 
   }
 
   public int getLength() {
