@@ -10,9 +10,9 @@ public class RectangleTest {
   }
 
   @Test
-  public void newRectangle_getsLength_4() {
+  public void newRectangle_getsLength_2() {
     Rectangle testRectangle = new Rectangle(2, 4);
-    assertEquals(4, testRectangle.getLength());
+    assertEquals(2, testRectangle.getLength());
   }
 
 }
