@@ -28,7 +28,7 @@ public class RectangleTest {
   }
 
   @Test
-  public void isSquare_allSidesEqual() {
+  public void isSquare_allSidesEqual_true() {
     Rectangle testRectangle = new Rectangle(2, 2);
     assertEquals(true, testRectangle.isSquare());
   }
