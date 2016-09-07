@@ -10,5 +10,7 @@ public class App {
     String stringWidth = myConsole.readLine();
     int intWidth = Integer.parseInt(stringWidth);
     Rectangle rectangle = new Rectangle(intLength, intWidth);
+    boolean squareResult = rectangle.isSquare();
+    System.out.println("Is your rectangle a square, too? " + squareResult);
   }
 }
