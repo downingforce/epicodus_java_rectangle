@@ -9,5 +9,6 @@ public class App {
     System.out.println("Enter the width of your rectangle:");
     String stringWidth = myConsole.readLine();
     int intWidth = Integer.parseInt(stringWidth);
+    Rectangle rectangle = new Rectangle(intLength, intWidth);
   }
 }
