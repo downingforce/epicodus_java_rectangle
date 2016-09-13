@@ -7,6 +7,10 @@ public class Rectangle {
     mWidth = width;
   }
 
+  public int area() {
+    return mLength * mWidth;
+  }
+
   public int getLength() {
     return mLength;
   }
